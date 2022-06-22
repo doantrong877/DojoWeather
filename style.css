@@ -112,13 +112,13 @@ hr{
 li{
     display: flex;
 }
-#high{
+.high{
     color: red;
     padding-right: 40%;
     
 }
 
-#low{
+.low{
     color: rgb(93, 141, 255); 
 }
 

@@ -23,8 +23,8 @@ var tempOption = document.querySelector("#temp-select");
 tempOption.addEventListener("change",function(){
     //change to fehranheit
     if(tempOption.value == "fehranheit"){
-        var hi = document.querySelectorAll("#high h3");
-        var lo = document.querySelectorAll("#low h3");
+        var hi = document.querySelectorAll(".high h3");
+        var lo = document.querySelectorAll(".low h3");
         hi.forEach(high => {
             high.innerHTML = Math.floor(Number(high.innerHTML) * 1.8 + 32)         
         });
@@ -34,8 +34,8 @@ tempOption.addEventListener("change",function(){
     }
     //change to celsius
     if(tempOption.value == "celcius"){
-        var hi = document.querySelectorAll("#high h3");
-        var lo = document.querySelectorAll("#low h3");
+        var hi = document.querySelectorAll(".high h3");
+        var lo = document.querySelectorAll(".low h3");
         hi.forEach(high => {
             high.innerHTML = Math.ceil((Number(high.innerHTML) - 32) / 1.8)         
         });
