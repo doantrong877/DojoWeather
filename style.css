@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*nav bar*/
+.nav{
+    color: white;
+    background-color: rgb(137, 175, 240);
+    display: flex;
+    padding: 1.5% 10%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.city-list{
+   list-style: none;
+   display: flex;
+   align-items: center;
+   width: 35%;
+   justify-content: space-between;
+}
