@@ -109,6 +109,9 @@ hr{
     font-size: 25px;   
 }
 
+li{
+    display: flex;
+}
 #high{
     color: red;
     padding-right: 40%;
