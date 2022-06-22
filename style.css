@@ -17,19 +17,37 @@ body{
     align-items: center;
     
 }
+
+.nav h1{
+    font-size: 40px;
+}
 .city-list{
    list-style: none;
    display: flex;
    align-items: center;
    width: 35%;
    justify-content: space-between;
+   padding-right: 3%;
+}
+
+.temperature p{
+    padding-left: 10%;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+#temp-select{
+    width: 20%;
+    height: 30px;
 }
 
 /*Main section*/
 .main-sec{
     padding-left: 10%;
     padding-right: 10%;
+    height: 100%;
 }
+
+/*top bar*/
 .top-bar{
     padding-top: 2%;
     padding-bottom: 2%;
@@ -43,3 +61,54 @@ body{
     width: 25%;
     align-items: center;
 }
+hr{
+    background-color: black;
+    border-style: solid;
+    margin-bottom: 2%;
+}
+
+/*weather-box*/
+.weather{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.weather-box{
+    background-color: lightgray;
+    padding: 2%;
+    width: 19%;
+    height: 400px ;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 1px;
+}
+.weather-box img{
+    border-radius: 50%;
+    width: 70%;
+    height: 40%;  
+}
+
+.weather-box p{
+    font-size: 22px;
+}
+
+.temp-display{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;   
+}
+
+#high{
+    color: red;
+    padding-right: 40%;
+    
+}
+
+#low{
+    color: rgb(93, 141, 255); 
+}
+

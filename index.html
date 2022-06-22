@@ -15,21 +15,66 @@
     <div class="nav">
         <h1>DojoWeather</h1>
         <ul class="city-list">
-            <li>Burbank</li>
-            <li>Chicago</li>
-            <li>Dallas</li>
+            <li><h2>Burbank</h2></li>
+            <li><h2>Chicago</h2></li>
+            <li><h2>Dallas</h2></li>
         </ul>
     </div>
     <!--Main Page-->
     <div class="main-sec">
+        <!--City Display-->
         <div class="top-bar">
-            <h2>San Jose</h2>
+            <h1>San Jose</h1>
             <div class="temperature">
                 <p>show temperature in </p>
                 <select name="temp" id="temp-select">
                     <option value="celcius">°C</option>
                     <option value="fehranheit">°F</option>
                 </select>     
+            </div>
+        </div>
+        <hr>
+         <!--Weather boxes-->
+        <div class="weather">
+            <!--Weather display-->
+            <div class="weather-box">
+                <h2>Today</h2>
+                <img src="assets/some_rain.png" alt="some-rain">
+                <p>some rain</p>
+                <ul class="temp-display">
+                    <li id="high"><h3>24°</h3></li>
+                    <li id="low"><h3>18°</h3></li>
+                </ul>
+            </div>
+
+            <div class="weather-box">
+                <h2>Tomorrow</h2>
+                <img src="assets/some_sun.png" alt="some-rain">
+                <p>some rain</p>
+                <ul class="temp-display">
+                    <li id="high"><h3>27°</h3></li>
+                    <li id="low"><h3>19°</h3></li>
+                </ul>
+            </div>
+
+            <div class="weather-box">
+                <h2>Friday</h2>
+                <img src="assets/some_clouds.png" alt="some-rain">
+                <p>some rain</p>
+                <ul class="temp-display">
+                    <li id="high"><h3>21°</h3></li>
+                    <li id="low"><h3>16°</h3></li>
+                </ul>
+            </div>
+
+            <div class="weather-box">
+                <h2>Saturday</h2>
+                <img src="assets/some_sun.png" alt="some-rain">
+                <p>some rain</p>
+                <ul class="temp-display">
+                    <li id="high"><h3>26°</h3></li>
+                    <li id="low"><h3>21°</h3></li>
+                </ul>
             </div>
         </div>
     </div>
