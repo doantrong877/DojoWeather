@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body{
+    font-family: "Acme", sans-serif;
+}
+
 /*nav bar*/
 .nav{
     color: white;
@@ -19,4 +23,23 @@
    align-items: center;
    width: 35%;
    justify-content: space-between;
+}
+
+/*Main section*/
+.main-sec{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.top-bar{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.temperature{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    align-items: center;
 }
