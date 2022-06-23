@@ -2,10 +2,14 @@
 //City weather loading alert
 var cities = document.querySelectorAll(".city-list a");
 
-cities.forEach(city => {
-    city.addEventListener('click', function handleClick(event){
-        alert("Loading weather report of " + city.innerHTML);
-    })
+// cities.forEach(city => {
+//     city.addEventListener('click', function handleClick(event){
+//         alert("Loading weather report of " + city.innerHTML);
+//     })
+// });
+
+$(".city-list a").click(function(){
+    alert("Loading weather report of " + this.innerHTML);
 });
 
 //Make Cookie disapear
